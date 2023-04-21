@@ -2,23 +2,30 @@
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
   background-size: cover;
   margin-bottom: 30px;
+  padding: 40px;
 }
 
 .card-2 {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
   background-size: cover;
   margin-bottom: 30px;
+  padding: 40px;
 }
 
 .card-3 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
   background-size: cover;
   margin-bottom: 30px;
+  padding: 40px;
 }
 
 /* Write your code here. */
@@ -31,6 +38,7 @@
 
 .head {
   color: #64748b;
+  display: block;
 }
 
 .para {
